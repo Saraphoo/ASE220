@@ -1,168 +1,295 @@
 <!DOCTYPE html>
 <html>
-	<head>
 
-		<!-- -------------------------------------------------------------------------------- -->
-		<!-- Name: Sarah Riley                                                                -->
-		<!-- Class: ASE 220 -001 Full Stack Application Deveolpent                                 -->
-		<!-- Abstract: Assignment 1: Create your personal website                                 -->
-		<!-- -------------------------------------------------------------------------------- -->
+<head>
 
-		<title> Biography of Sarah Riley </title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-	</head>
-    <nav>
+    <!-- -------------------------------------------------------------------------------- -->
+    <!-- Name: Sarah Riley                                                                -->
+    <!-- Class: ASE 220 -001 Full Stack Application Deveolpent                                 -->
+    <!-- Abstract: Assignment 1: Create your personal website                                 -->
+    <!-- -------------------------------------------------------------------------------- -->
 
+    <title> Sarah Riley Personal Page </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Corben' rel='stylesheet'>
+    <link rel="stylesheet" href="Styles/PersonalPage.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="nav" >
+        <div class="container-fluid" id="top">
+            <a class="navbar-brand" href="#top">Sarah Riley</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-170px mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sectionTwoBioHighlights">About Me</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Navigate
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#sectionThreeSkills">Skills</a></li>
+                            <li><a class="dropdown-item" href="#sectionFourHobbies">Hobbies</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sectionFiveContactForm">Contact Me</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
     </nav>
-	<body>
-        <section id="Intro">
-            <header class="Title">
-		        <h1>Sarah Riley</h1>
+    <div class="container" id="MainContent">
+        <div class="col-lg-12 p-3" id="sectionOneProfession">
+            <header class="row">
+                <div class="col-12">
+                    <h2>Nice to meet you, I'm Sarah.</h2>
+                </div>
             </header>
-        </section>
-        <section id="sectionOneProfession">
-            <header class="subTitle">
-                <h2>Nice to meet you, I'm Sarah.</h2>
-            </header>
-            <figure class="ImageWindow" id="portaitSarahR">
-                <img src="../Projects/Images/242803770_580799133271547_280696351478406570_n.jpg" alt="Portrait of Sarah Riley">
-            </figure>
-            <article id="professionalDescription">
-                <p>
-                    Life long learner and adventurer, there are few career paths that I have not dabbled in.
-                    I entered the work force when I was only 14 working at a family friends pizzaria. From there I 
-                    moved to working in retail; I did this until I graduated in 2016. After moving and making a few life
-                    choices I decided to try out the medical feild as a Certified Nursing assistant. I worked this job for a few years
-                    before deciding to attend college for the first time. I attened a community college for a semester or tow
-                    part time until deciding to move to Cincinnati where I began working closely in pet care such as dog daycare and boarding
-                    as well as professional grooming. I was happy in the animal feild but I craved a more comfortable life and in 2021 I decided
-                    to begin attending college again, first at Cincinnati State then at Northern Kentucky University, to aquire a degree in 
-                    software engineering in hopes of being hired by a tech company and ultimately achieving a higher paying job equating to a more 
-                    comfortable life.
-                </p>
-            </article>
-        </section>
-        <section id="sectionTwoBioHighlights">
+            <div class="row">
+
+                <div class="col-lg-7 col-12" id="professionalDescription">
+                    <article>
+                        <div id="ProfessionalContent" class="col-lg-6 col-8 mx-auto">
+                            <header class="row">
+                                    <h2 >Professional Me</h2>
+                            </header>
+                            <p class="row">
+                                “You are always brining your best to work! Thank you for always being willing to share
+                                your
+                                wide range of knowledge with others!”
+                            </p>
+                            <div class="row">
+                                <p class="col-12" style="text-align:right;">- Mary-Grace N. Newport Aquirum</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-5 col-12" id="portaitSarahR">
+                    <div>
+                        <img src="Assets/Images/242803770_580799133271547_280696351478406570_n.jpg"
+                            class="img-fluid" alt="Portrait of Sarah Riley">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="sectionTwoBioHighlights" class="col-12 p-3">
             <article id="bio">
-                <p>
-                    You can say I am a bit of a nomad. I was born in Atlanta Georgia. I lived there for ten years after which my family and
-                    I moved to my parents home town in the beautiful state of Michigan. I spent another ten years there spending a lot of time
-                    hiking and exploring the state. Now I live in Cincinnati Ohio in hopes of finding new excitement in this next phase of my life.
-                </p>
-            </article>
-        </section>
-        <section id="sectionThreeSkills">
-            <header class="subTitle">
-                <h2>My Skills</h2>
-            </header>
-            <article id="skillOne">
-                <header Class="SubSubHeader">
-                    <h2>Problem Solver</h2>
+                <header class="subTitle">
+                    <h2>About Me</h2>
                 </header>
                 <p>
-                    Solving problems is what I do. During my exploration through my careers the main consistancy has always been
-                    the apprecation my team mates have for my problem solving abilities. Whether it was handling a schedualing conflict
-                    or fixing a simple computer problem I was often one of the first people asked to help in many of my past professions.
-                    As a software engineer I enjoy using my problem solving skills to enhance and/or repair the applications that I work on. 
-                </p>
-            </article>
-            <article id="skillTwo">
-                <header class="SubSubHeader">
-                    <h2>Willingness to Learn</h2>
-                </header>
-                <p>
-                    As a lover of education and growth
-                </p>
-            </article>
-            <article id="skillThree">
-                <header Class="SubSubHeader">
-                    <h2>Passion for People</h2>
-                </header>
-                <p>
+                    &emsp;Born in 1997 to a small suburb out side of Atlanta Georgia and moved to a small town in Michigan when I was 10, I have
+                    lived and seen a little bit of everything. 
+                     In Michigan money was tight. The small city where I lived there was little opportunity for financial growth and as a result after graduating highschool
+                     I moved to Cincinnati Ohio. Here I discovered the advantages of software engineering and decided to persue a college degree at Northern Kentucky University.
 
                 </p>
             </article>
-        </section>
-        <section id="sectionFourHobbies">
-            <article id="hobbiesDecription">
-                <header class="SubTitle">
+        </div>
+
+        <div id="sectionThreeSkills">
+            <div class="row">
+                <header class="col-12 px-4 text-center">
+                    <h2>My Skills</h2>
+                </header>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-12 px-4">
+                    <article id="skillOne">
+                        <header Class="SubSubHeader">
+                            <h2>Problem Solver</h2>
+                        </header>
+                        <p>
+                            &emsp;Solving problems is what I do. During my exploration through my careers the main
+                            consistancy
+                            has
+                            always been
+                            the apprecation my team mates have for my problem solving abilities. Whether it was
+                            handling
+                            a
+                            schedualing conflict
+                            or fixing a simple computer problem I was often one of the first people asked to help in
+                            many of
+                            my
+                            past professions.
+                            As a software engineer I enjoy using my problem solving skills to enhance and/or repair
+                            the
+                            applications that I work on.
+                        </p>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-12 px-4">
+                    <article id="skillTwo">
+                        <header class="SubSubHeader">
+                            <h2>Willingness to Learn</h2>
+                        </header>
+                        <p>
+                            &emsp; As a lover of education and growth I have an percistant willingess to learn. Though my history I have worked many
+                            different jobs each requiring a different set of skills that I had to learn in order to perform the task needed of me.
+                            When I worked in health care it was required of me to learn about the human body and it's proper fuctions. During my time as a 
+                            dog handler I had to learn about the behaviors of a canine and how to properly respond to each behavior. No matter what the career was I 
+                            took what ever steps neccessary to learn what I needed to complete the task.
+                        </p>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-12 px-4">
+                    <article id="skillThree">
+                        <header Class="SubSubHeader">
+                            <h2>Passion for People</h2>
+                        </header>
+                        <p>
+                            &emsp; Through the many different career paths that I have explored since entering the workforce the common element that I have learned 
+                            is impossible to escape is people. No matter what parson's career is there will always be people involved in some way. As a result, I have 
+                            develped a passion for people. Whether its communicating with someone through a simple conversation, or assisting them in a need, I am always 
+                            happy to be where ever a person needs me.
+                        </p>
+                    </article>
+                </div>
+            </div>
+
+        </div>
+        <div class="row" id="sectionFourHobbies">
+
+            <article class="col-lg-6 col-12 " id="hobbiesDecription">
+                <header class="SubHeader">
                     <h2>My Hobbies</h2>
                 </header>
                 <p>
-                    My hobbies includes digital art. I have been working on digital art since 2009. Growing up I loved to draw and I 
-                    also loved computers. Digital art is the happy marrage between the two. My subjects mostly include pets and other 
-                    animals including humans, but I am exploring more into painting landscapes and city scapes. 
+                    &emsp;My hobbies includes digital art. I have been working on digital art since 2009 when a
+                    friend
+                    introduced me to the medium.
+                    As a little girl I loved to draw. I would spend a lot of time studying from art books
+                    and
+                    attempting to replicate their methods.
+                    Though as I aged I gained an appreciation for computers and other digital media. Thus
+                    when I
+                    discoved digital art I found it to be
+                    the happy marrage between the two. The subjects of my works primarily include pets and
+                    other
+                    animals. 
+                    <br>&emsp;Through out my hobby career
+                    I have created many portaits of peoples cats, dogs, rabbits and even guinea pigs. The
+                    limits
+                    of
+                    my orders do not stop there.
+                    In addition to pet commissions I have had human portaits commissioned, including one of
+                    a
+                    man
+                    and his departed grandfather.
+                    Dispite my experiance with animals I am exploring more into painting landscapes, city
+                    scapes,
+                    and still life of rooms.
+                    When it comes all things in my life I feel that it is important to always expand and
+                    improve
+                    in
+                    all ways possible.
+
                 </p>
             </article>
-            <figure class="ImageWindow" id="hobbyImages">
-                <img src="../Projects/Images/turbo_commission_finial_by_princesshifoo_ddmuk2n-fullview.jpeg" alt="Portait of Turbo the Dog by Sarah Riley"  >
-                <img src="../Projects/Images/EggsinMinutes.png" alt="Watercolor painting of two uncooked eggs; Named Eggs in Minutes">
-                <img src="../Projects/Images/west_cincy_streetcar_by_princesshifoo_df3zj82-fullview.jpeg" alt ="Art Neuvo style portait of Cincinnati Steet Car and Woman">
-                <img src="../Projects/Images/dfknebw-d3c7da58-e61b-4f15-ba45-1140c74929b7.png" alt="Digitally Painted Portait of a man and his Grandfather.">
-            </figure>
-        </section>
-        <section id = "sectionFiveContactForm">
-            <form name="frmUserContactForm" method="get" action="">
-                <Section id="FormBanner"> 
-                    <h2>Contact Me</h2>
-                </Section>
-                <section Id="PersonalInfo">
-                    <fieldset>
-                        <legend>Personal Information</legend>
-                    <table>
-                        <Tbody>
-                            <tr id="Firstname">
-                                <td> 
-                                    <label for="txtFirstName"> First Name: </label> 
-                                </td> 
-                                <td> 
-                                    <input type="text" name="txtFirstName" size="20" maxlength="50" required>
-                                </td> 
-                            </tr>
-                            <tr id="Lastname">
-                                <td> 
-                                    <label for="txtLastName"> Last Name: </label> 
-                                </td> 
-                                <td> 
-                                    <input type="text" name="txtLastName" size="20" maxlength="50" required>
-                                </td> 
-                            </tr>
-                            <tr id="HomePhone">
-                                <tr>
-                                    <td>
-                                        <label for="txtHomePhoneNumber"> Home Phone: </label> 
-                                    </td> 
-                                        <td> 
-                                        <input type="tel" name="txtHomePhoneNumber" size="20" maxlength="13" placeholder="(###)###-####">
-                                    </td> 
-                                </tr>
-                            </tr>
-                            <tr id="EmailAddress"></tr>
-                                <tr>
-                                    <td>
-                                        <label for="txtEmailAddress"> Email Address: </label> 
-                                    </td> 
-                                    <td> 
-                                        <input type="email" name="txtEmailAddress" size="20" maxlength="50" required>
-                                    </td> 
-                                </tr>
-                                <tr id="UserMessage"></tr>
-                                <tr>
-                                    <td>
-                                        <label for="txtUserMessage"> Your Message: </label> 
-                                    </td> 
-                                    <td> 
-                                        <input type="text" name="txtUserMessage" size="100" maxlength="250" required>
-                                    </td> 
-                                </tr>
-                            </Tbody>
-                        </table>
-                    </fieldset>
-                </section>
-            </form>    
-        </section>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-  
-	</body>
+            <div id="carouselGallery" class="carousel slide col-lg-6 col-12">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Assets/Images/ddd9kkr-a634c07b-41ad-44dd-91d9-6ece06b31324.png"
+                            class="d-block w-100" alt="Realism portait of Shadow the cat by Sarah Riley">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Assets/Images/EggsinMinutes.png" class="d-block w-100"
+                            alt="Watercolor painting of two uncooked eggs; Named Eggs in Minutes by Sarah Riley">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Assets/Images/dfknebw-d3c7da58-e61b-4f15-ba45-1140c74929b7.png"
+                            class="d-block w-100"
+                            alt="Cartoon realism portait of a man and his Grandfather by Sarah Riley">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Assets/Images/turbo_commission_finial_by_princesshifoo_ddmuk2n-fullview.jpeg"
+                            class="d-block w-100" alt="Watercolor portait of Turbo the Dog by Sarah Riley">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselGallery"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselGallery"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="container" id="sectionFiveContactForm">
+            <div class="row gy-5">
+                <div class="col-12 px-4 p-3">
+                    <header class="col-12 px-4 text-center">
+                        <h2>Contact Me</h2>
+                    </header>
+                    <form id="ContactForm">
+                        <div class="input-group">
+                            <span class="input-group-text">First and last name</span>
+                            <input type="text" aria-label="First name" class="form-control">
+                            <input type="text" aria-label="Last name" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
+                            <textarea class="form-control" id="FormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Sign up for the new's letter on
+                                current
+                                events</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"></script>
+    </div>
+</body>
+<footer>
+    <div class="container" id="footNote">
+        <div class="row gy-5">
+                <div class="col-4 p-3">
+                    <p>Rileys14@mymail.nku.edu</p> 
+                </div>
+                <div class="col-4 p-3">
+                    <a href="https://www.instagram.com/real_sarahh/">Instagram</a>
+                </div>
+                <div class="col-4 p-3">
+                    <a href="https://www.linkedin.com/in/sarah-riley-33a429241/">Linked In</a>
+                </div>
+
+        </div>
+    </div>
+</footer>
 
 </html>

@@ -1,0 +1,76 @@
+* {
+    font-family: 'Corben';
+}
+
+@media screen and (max-width: 600px) {
+    body {
+      background-color: rgb(255, 255, 133);
+    }
+  }
+  @media screen and (min-width: 600px) {
+    body{
+        background-image: url(../Assets/Images/yellow-plaid-textured-fabric-vector-pattern-background-vector-id494619360-3093634613);
+    }
+  }
+   @media screen and (max-width: 600px) {
+    #professionalDescription {
+      background-color: rgb(251, 223, 187);
+    }
+  } 
+  
+  @media screen and (min-width: 600px) {
+    #professionalDescription {
+      background-color: rgb(255, 211, 194) ;
+    }
+  }
+  @media screen and (min-width: 600px) {
+    #footNote{
+      background-color: rgb(244, 206, 244);
+    }
+  } 
+  @media screen and (max-width: 600px) {
+    #footNote{
+      background-color: lavender;
+    }
+  } 
+#nav{
+    background-color: lavender;
+    color: mediumpurple;
+}
+
+#MainContent {
+    border: 5px solid lightpink;
+    background-color: pink;
+    color: palevioletred;
+}
+
+#sectionTwoBioHighlights {
+    border: 5px solid lightgreen;
+    background-color: mintcream;
+    color: rgb(12, 164, 12);
+}
+
+#professionalDescription {
+    border: 5px solid rgb(255, 184, 54);
+    /* background-color: rgb(251, 223, 187); */
+    color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sectionThreeSkills {
+    border: 5px solid skyblue;
+    background-color: lightblue;
+    color: dodgerblue;
+}
+
+#portaitSarahR {
+    border: 5px solid palegoldenrod;
+    background-color: lightgoldenrodyellow;
+}
+#footNote{
+    border: 5px solid plum;
+    text-align: center;
+    color: mediumpurple;
+}
